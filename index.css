@@ -104,9 +104,27 @@ img, svg, video {
     border-bottom: 2px solid #fff;
 }
 
+/* header_front */
+
 .header_front {
+    padding-top: 220px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_subtitle {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header_title {
+    max-width: 829px;
+
     font-weight: 800;
     font-size: 48px;
     line-height: 134%;
-    text-align: center;
 }
